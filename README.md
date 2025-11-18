@@ -22,23 +22,28 @@
 # Структура проекта
 Дерево структуры проекта: 
 ```
-pz9-auth/
-├── internal/
-│   ├── http/
-│   │   └── handlers/
-│   │       └── auth.go
-│   └── core/
-│   │   └── user.go
-│   ├── repo/
-│   │   ├── postgres.go
-│   │   └── user_repo.go
-│   └── platform/
-│       └── config/
-│           └── config.go
+pz10-auth/
 ├── cmd/
-│   └── api/
+│   └── server/
 │       └── main.go
-└── go.mod
+├── internal/
+│   ├── core/
+│   │   ├── user.go
+│   │   ├── service.go
+│   │   └── blacklist.go
+│   ├── http/
+│   │   ├── router.go
+│   │   └── middleware/
+│   │       ├── authn.go  
+│   │       └── authz.go
+│   ├── platform/
+│   │   ├── jwt/
+│   │   │   └── jwt.go 
+│   │   └── config/
+│   │       └── config.go 
+│   └── repo/
+│       └── user_mem.go
+└── .env
 ```
 
 # Скриншоты
