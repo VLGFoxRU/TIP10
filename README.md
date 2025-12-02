@@ -16,7 +16,7 @@ Linux/macOS:
 ```
 export JWT_SECRET="dev-secret"
 export ACCESS_TTL="15m"
-export REFRESH_TTL="2h"
+export REFRESH_TTL="168h"
 export APP_PORT="8080"
 go run ./cmd/server
 ```
@@ -25,7 +25,7 @@ Windows PowerShell:
 ```
 $env:JWT_SECRET="dev-secret"
 $env:ACCESS_TTL="15m"
-$env:REFRESH_TTL="2h"
+$env:REFRESH_TTL="168h"
 $env:APP_PORT="8080"
 go run ./cmd/server
 ```
@@ -63,13 +63,31 @@ pz10-auth/
 
 # Скриншоты
 
-успешный /login (токен):
+Успешный /login администратора:
 
-/me и /admin/stats для admin:
+<img width="1380" height="638" alt="image" src="https://github.com/user-attachments/assets/8345ceae-8e0d-4cdf-9e26-4d3894701bf7" />
+
+Успешный /login пользователя:
+
+<img width="1369" height="647" alt="image" src="https://github.com/user-attachments/assets/144c77c6-282a-450c-8036-cfdd67d354bd" />
+
+/me администратора:
+
+
+
+/admin/stats администратора:
+
+<img width="1363" height="569" alt="image" src="https://github.com/user-attachments/assets/20e228ef-93c5-4c32-ba5c-5e5bcb7d9e75" />
 
 403 для user на /admin/stats:
 
+<img width="1368" height="513" alt="image" src="https://github.com/user-attachments/assets/7d944520-b2a4-43cd-840c-70bb29b9efad" />
+
 refresh-флоу (старый/новый access):
+
+<img width="1359" height="626" alt="image" src="https://github.com/user-attachments/assets/81343d14-83f3-4577-a291-c6a69454bfa3" />
+
+
 
 # Фрагменты кода
 
