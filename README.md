@@ -73,7 +73,7 @@ pz10-auth/
 
 /me администратора:
 
-
+<img width="1371" height="557" alt="image" src="https://github.com/user-attachments/assets/0380c76a-c4e3-4c28-bcef-609b6a4b7d4e" />
 
 /admin/stats администратора:
 
@@ -87,9 +87,7 @@ refresh-флоу (старый/новый access):
 
 <img width="1359" height="626" alt="image" src="https://github.com/user-attachments/assets/81343d14-83f3-4577-a291-c6a69454bfa3" />
 
-
-
-# Фрагменты кода
+<img width="1384" height="559" alt="image" src="https://github.com/user-attachments/assets/15c41d49-3a30-4422-9774-8c9b5ef2cad4" />
 
 # Краткие выводы
 
